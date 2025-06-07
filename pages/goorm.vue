@@ -526,7 +526,7 @@ onMounted(() => {
         </div>
         <Article
           v-if="doneFetching"
-          v-for="article in articles"
+          v-for="article in filteredArticles"
           :type="article.type"
           :price="article.price"
           :owner="`${article.owner_gcn} ${article.owner_name}`"

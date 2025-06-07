@@ -157,7 +157,7 @@ function purchase() {
         </div>
         <div v-if="props.trader === props.mygcnn">
           &nbsp;&nbsp;·&nbsp;&nbsp;판매자의 계좌번호 :
-          <span id="sellerAccount">{{ 'hello world' }}</span>
+          <span id="sellerAccount">{{ '1234-1234-1234' }}</span>
         </div>
       </div>
       <div>{{ props.modify_time }}</div>
